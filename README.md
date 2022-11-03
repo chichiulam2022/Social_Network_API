@@ -7,7 +7,7 @@ A social network API written pure JavaScript with MongoDB/Mongoose
 ## Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Demo & Testing](#demo&testing)
+* [Demo](#demo)
 * [Licence](#licence)
 * [Contributors](#contributors)
 * [Questions](#questions)
@@ -23,7 +23,7 @@ The following necessary dependencies and database must be installed properly:
 Use `npm start` to run the program and connect the database, then use Insomina to perform CRUD such as add users, update thoughts, view all thoughts and users, and delete them, etc.
 <img width="700" alt="Screenshot 2022-11-03 at 5 40 34 PM" src="https://user-images.githubusercontent.com/108379616/199839894-58bd23f8-c188-499f-ac6c-8887fb3a05f2.png">
 
-## Demo & Testing
+## Demo
 Suggest to perform and test the database by using Insomnia or other API platforms such as Postman.
 <img width="700" alt="Screenshot 2022-11-03 at 5 32 09 PM" src="https://user-images.githubusercontent.com/108379616/199838918-c34cfada-8e80-455f-b5cf-1d98ab2ca15c.png">
 
