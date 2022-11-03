@@ -31,18 +31,20 @@ const thoughtController = {
         Thought.create(req.body)
             .then((dbThoughtData) => {
                 User.findOneAndUpdate(
-                    { _id: req.body.userId },
-                    { $push: { thoughts: dbThoughtData._id } },
+                    { username: req.body.username },
+                    { $push: { thoughts: dbThoughtData } },
                     { new: true }
                 )
                     .then(dbUserData => {
                         !dbUserData
-                            ? res.status(404).json({ message: 'No thought found with this id. Please try again' })
+                            ? res.status(404).json({ message: 'No user found with this id. Please try again' })
                             : res.json(dbUserData)
                     })
                     .catch(err => res.status(500).json(err))
             })
     },
+
+
 
     //update thoughts
     updateThought(req, res) {
