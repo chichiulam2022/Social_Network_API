@@ -19,6 +19,9 @@ The following necessary dependencies and database must be installed properly:
 * <b>Mongodb - visit https://www.mongodb.com/docs/manual/installation/ if you haven't installed it</b>
 * <b>Insomnia</b>
 
+`npm i express` to install Express.js; <br>
+`npm i mongoose` to install Mongoose;
+
 ## Usage
 Use `npm start` to run the program and connect the database, then use Insomina to perform CRUD such as add users, update thoughts, view all thoughts and users, and delete them, etc.
 <img width="700" alt="Screenshot 2022-11-03 at 5 40 34 PM" src="https://user-images.githubusercontent.com/108379616/199839894-58bd23f8-c188-499f-ac6c-8887fb3a05f2.png">
