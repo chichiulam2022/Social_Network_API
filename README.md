@@ -1,4 +1,4 @@
-# Social_Network_API
+# Social_Network_API 👬
 
 ## Description
 A social network API written pure JavaScript with MongoDB/Mongoose
@@ -8,6 +8,7 @@ A social network API written pure JavaScript with MongoDB/Mongoose
 * [Installation](#installation)
 * [Usage](#usage)
 * [Demo](#demo)
+* [Technologies](#technologies)
 * [Licence](#licence)
 * [Contributors](#contributors)
 * [Questions](#questions)
@@ -31,6 +32,14 @@ Suggest to perform and test the database by using Insomnia or other API platform
 <img width="700" alt="Screenshot 2022-11-03 at 5 32 09 PM" src="https://user-images.githubusercontent.com/108379616/199838918-c34cfada-8e80-455f-b5cf-1d98ab2ca15c.png">
 
 Visit the demo video: https://drive.google.com/file/d/1zPI3WqX-xlWicukojLooBFEiD_uVMtzu/view
+
+## Technologies
+* JavaScript
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* Insomnia
 
 ## Licence
 This project is licensed under the MIT licence. 
